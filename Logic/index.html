@@ -5,9 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program on Logic</title>
-    <script src="arrays/loop/vetor.js"></script>
+    <script src="Procedimentos/funções.js"></script>
+
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+       .container{
+        position: relative;
+        left: 45%;
+        border: 1px solid rgba(0, 0, 0, 0);
+        width: 200px;
+        height: 200px;
+        top: 200px;
+        
+       }
+       .slide{
+        position: absolute;
+        border: 1px solid rgba(165, 42, 42, 0);
+        width: 200px;
+        height:0px;
+        visibility: hidden;
+        border-radius: 0 20px;
+        transition: 1s;
+       }
+       .container:hover > .slide{
+        visibility: visible;
+        background-color: brown;
+        height: 200px;
+        border-radius: 0 20px;
+       }
+       h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1.7em;
+        text-align: justify;
+        text-align: center;
+        font-style: italic;
+        position: absolute;
+        transition: 1.5s;
+        
+       }
+       .container:hover > h1{
+        color:rgb(255, 255, 255);
+        
+       }
+       .destaque:hover{
+        color: rgb(40, 230, 69);
+       }
+       
+     
+    </style>
 </head>
 <body>
-    <h1 style="text-align:center ; margin-top:200px; font:italic 1.5em sans-serif;">Interagir com o <span style="color:rgb(200,30,100);">javascript</span></h1>
+   
+      <div class="container"> <!-- quadrado estatico -->
+
+        <div class="slide"> <!-- quadrado slide -->
+
+        </div> 
+
+        <h1>Interação em <span class="destaque">Javascript</span> </h1> <!-- frase  -->
+
+      </div>
+    
 </body>
 </html>
