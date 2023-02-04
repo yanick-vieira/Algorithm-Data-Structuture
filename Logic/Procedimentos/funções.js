@@ -20,7 +20,7 @@ animal("Gaivota","Rato");
 
 
 // Calculo de IMC
-
+/*
 function imc (x){
 
  if( (x >= 11) && (x <= 21) ) {
@@ -44,5 +44,5 @@ function imc (x){
 };
 
 imc(21);
-
+*/
 
